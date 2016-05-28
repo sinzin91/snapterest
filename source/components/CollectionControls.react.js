@@ -80,7 +80,7 @@ var CollectionControls = React.createClass({
     return (
       <div>
 
-        {/* pass a call to this.getHeaderText() function */}
+      
         <Header text={this.getHeaderText()} />
 
         <Button

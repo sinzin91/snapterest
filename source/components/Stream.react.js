@@ -48,3 +48,5 @@ var Stream = React.createClass({
     );
   }
 })
+
+module.exports = Stream;

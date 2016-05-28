@@ -75,7 +75,6 @@ var CollectionRenameForm = React.createClass({
             style={inputStyle}
             onChange={this.handleInputValueChange}
             value={this.state.inputValue}
-            {/* ref is a special React property that allows you to refer to that component outside a render method */}
             ref="collectionName" />
         </div>
 

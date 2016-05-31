@@ -26291,10 +26291,8 @@ var formStyle = {
 var CollectionExportForm = React.createClass({
   displayName: 'CollectionExportForm',
 
-  // the input element is hidden, with value set to HTML markup string
-  // that is passed by a parent component
   render: function () {
-    React.createElement(
+    return React.createElement(
       'form',
       { action: 'http://codepen.io/pen/define', method: 'POST', target: '_blank', style: formStyle },
       React.createElement('input', { type: 'hidden', name: 'data', value: this.props.htmlMarkup }),
